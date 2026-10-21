@@ -1,0 +1,68 @@
+/* Footer */
+
+/* The spacing above the footer is a padding, not a margin: the margin-top is
+   reserved for the sticky footer rule below. */
+.rgpd-footer {
+    margin: 0 15px 15px 15px;
+    padding-top: 25px;
+    font-size: 0.9em;
+}
+
+/* The core "hr" style already follows the theme, only the spacing changes. */
+.rgpd-footer-separator {
+    margin: 0 0 10px 0;
+}
+
+.rgpd-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.rgpd-footer-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Keep the footer at the bottom of the screen when the page is shorter than
+   the viewport, and right after the content when it is longer. The rule only
+   applies to the pages actually displaying the footer, so the layout of the
+   other pages is left untouched. */
+@media screen {
+    body:has(> .rgpd-footer) {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+    body:has(> .rgpd-footer) > .rgpd-footer {
+        margin-top: auto;
+    }
+}
+
+/* Purge pages: the core view switcher used as a tab bar under the title. */
+
+.rgpd-tabs {
+    margin: 0 0 20px 0;
+    font-size: 1em;
+}
+
+/* The core gives link icons a fixed colour: follow the button text instead. */
+
+.rgpd-purge-actions .btn .fa {
+    color: inherit;
+}
+
+/* Settings page */
+
+.rgpd-item-target {
+    word-break: break-all;
+}
