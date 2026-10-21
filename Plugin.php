@@ -173,7 +173,7 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'Ludovic Francois (LINAGORA)';
+        return 'Ludovic FRANCOIS (LINAGORA)';
     }
 
     public function getPluginVersion()

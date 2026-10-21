@@ -172,6 +172,13 @@ Requirements
 
 - Kanboard >= 1.2.20
 
+Author
+------
+
+Developed by Ludovic FRANCOIS, employee of [LINAGORA](https://linagora.com),
+on behalf of the French Ministries for Economy and Finance (*Ministères
+économiques et financiers*).
+
 License
 -------
 
