@@ -182,6 +182,12 @@ Pré-requis
 
 - Kanboard >= 1.2.20
 
+Auteur
+------
+
+Développé par Ludovic FRANCOIS, salarié de [LINAGORA](https://linagora.com),
+pour le compte des Ministères économiques et financiers.
+
 Licence
 -------
 
