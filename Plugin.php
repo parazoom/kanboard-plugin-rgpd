@@ -183,7 +183,7 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/parazoom/kanboard-plugin-rgpd';
+        return 'https://github.com/parazoom/rgpg_kanboard.git';
     }
 
     public function getCompatibleVersion()
